@@ -1,9 +1,16 @@
-table {
-    border-collapse: collapse;
-    margin: 15px 0;
+body {
+    padding: 0;
+    margin: 0;
 }
 
-td, th {
-    border: 1px solid black;
-    padding: 5px 10px;
+main {
+    background-color: #a7a7a7;
+}
+
+#blends-container {
+    width: 40vw;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-flow: row;
 }
